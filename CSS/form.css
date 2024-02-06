@@ -14,14 +14,14 @@ body {
   padding-top: 15px;
 }
 
-.container {
+.form_container {
   display: flex;
   padding-top: 40px;
   padding-bottom: 40px;
   justify-content: center;
 }
 
-.form_login {
+.form_login, .form_reg {
   max-width: 400px;
   width: 100%;
   padding: 20px;
@@ -76,7 +76,9 @@ input[type="submit"]:hover {
   background-color: #0d1824; /* Tonalidade mais escura ao passar o mouse */
 }
 
-
+.redes{
+  color: black;
+}
 
 /*a {
   color: black;
@@ -100,7 +102,7 @@ select, textarea {
   border-radius: 4px;
 }
 
-footer > .navbar {
+.footer_navbar {
   background-color: #000000;
   overflow: hidden;
   position: fixed;
@@ -109,7 +111,7 @@ footer > .navbar {
 }
 
 /* Links dentro da bottomnav */
-footer > .navbar a {
+.footer_navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -120,11 +122,11 @@ footer > .navbar a {
 }
 
 /* Cor dos links */
-footer > .navbar a:hover {
+.footer_navbar a:hover {
   background-color: #ffffff;
   color: black;
 }
-footer > .navbar a.redes {
+.footer_navbar a.redes {
   float: right;
 }
 
@@ -134,9 +136,10 @@ footer > .navbar a.redes {
 }
 
 .radio-group{
-  width: 100%;
+  width: 50%;
   display: flex;
-  align-items: center;
+  align-items: baseline;
+  justify-content: center;
 }
 
 .radio-group label{
@@ -144,6 +147,14 @@ footer > .navbar a.redes {
 }
 
 input[type="checkbox"] {
-  display: inline-block;
-  width: auto;
+  height: 20px;
+  width: 10%;
+}
+
+.small_print{
+  width: 100%;
+  display: flex;
+  font-size: x-small;
+  align-content: start;
+  padding-top: 20px;
 }

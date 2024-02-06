@@ -22,14 +22,12 @@
     <title>WAVE - Entre na Wave</title>
     <link rel="icon" type="image/x-icon" href="/MEDIA/img/logo.png" /> <!-- changed icon to same as logo-->
 
-    <title>Entre na Wave</title>
-
   </head>
 
   <body>
 
     <header>
-      <nav class="navbar" style="background-color: rgb(106 126 152); padding-bottom: 0;"> <!--off canvas navbar-->
+      <nav class="navbar" style="background-color: #b9c5d3; padding-bottom: 0;"> <!--off canvas navbar-->
         <div class="container-fluid justify-content-end">
           <!--<a class="navbar-brand" href="#">Offcanvas navbar</a>-->
           <a class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -73,7 +71,7 @@
                   <a class="nav-link" href="index.html#about_us">Sobre nós</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html#signup">Contactos</a>
+                  <a class="nav-link" href="#signup">Contactos</a>
                 </li>
               </ul>
               <form class="d-flex mt-3" role="search">
@@ -87,9 +85,9 @@
     </header>
 
     <main>
-      <h2>Entre na <span style="color: #5969b9; font-size: 22">Wave</span></h2>
+      <h2 style="text-align: center;">Entre na <span style="color: #5969b9; font-size: 22">Wave</span></h2>
 
-      <div class="container">
+      <div class="form_container">
         <form class="form_login" action="/processar_registro" method="post">
           <label for="nome">Nome de Utilizador:</label>
           <input type="text" id="nome" name="nome" required />
@@ -110,9 +108,7 @@
 
     </footer>
 
-    <div class="navbar">
-      <a href="#Sobrenos" class="active">Sobre nós</a>
-      <a href="#Contatos">Contactos</a>
+    <div class="footer_navbar">
       <a class="redes" href="https://www.instagram.com/" target="_blank">
         <ion-icon name="logo-instagram"></ion-icon>
         <a class="redes" href="https://twitter.com/" target="_blank">
