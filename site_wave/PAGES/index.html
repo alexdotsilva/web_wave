@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="/CSS/reset.css"> <!--css reset page for compatibility, must be the first to be loaded-->
+
+    <!-- Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" type="text/css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" type="text/css">
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/mystyles.css">
+    <link rel="stylesheet" href="/CSS/carousel.css">
+
+    <!--name of the page and icon on tab-->
+    <title>WAVE - The music ocean</title>
+    <link rel="icon" type="image/x-icon" href="/MEDIA/img/logo.png" href="index.html" /> <!-- changed icon to same as logo-->
+    
+  </head>
+  <body>
+    <!-- Navigation menu on top - navbar-->
+   <!-- <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#!">
+          <img src="/MEDIA/img/logo.png" width="50" height="50" />
+        </a>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Procura a tua música" />
+        </form>
+        <a class="btn btn-primary" href="/PAGES/login.html">Login</a>
+      </div>
+    </nav>-->
+
+    <nav class="navbar" style="background-color: rgb(106 126 152); padding-bottom: 0;"> <!--off canvas navbar-->
+      <div class="container-fluid justify-content-end">
+        <!--<a class="navbar-brand" href="#">Offcanvas navbar</a>-->
+        <a class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <!--<span class="navbar-toggler-icon"></span>-->
+          <img style="width: 2rem; height: 2rem;" src="/MEDIA/img/logo.png" alt="wave logo">
+        </a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="/MEDIA/img/logo.png" alt="wave logo"> Enjoy the WAVE</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Músicas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="music.html">Todas as músicas</a></li>
+                  <li><a class="dropdown-item" href="#">Pop</a></li>
+                  <li><a class="dropdown-item" href="#">Rock</a></li>
+                  <!--<li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="albuns.html">Álbuns</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tops.html">Tops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_us">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#signup">Contactos</a>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Masthead-->
+
+    <header class="masthead" style="margin-bottom: 120px">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div class="col-xl-6">
+            <div class="text-center text-white">
+              <!-- Page heading-->
+              <h1 class="mb-5">Redescobre os teus gostos</h1> <!--main text on page-->
+              <h2 class="emailh2">Milhares de músicas à distância de um click</h2>
+              <a class="btn btn-primary" href="/PAGES/form.html">Registra-te já!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ícones, num futuro com hiperligações para a interface-->
+    <div class="container mt-8">
+      <h2 class="py-3 text-center mb-5">Nunca pares de ouvir</h2>
+      <p class="p3 text-center mb-4" style="font-size: 20px">Experimenta a Wave da maneira que preferires</p>
+
+      <div class="d-flex justify-content-center">
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+
+          <div class="col mb-4">
+            <div class="card h-80">
+              <a href="music.html">
+                <img src="/MEDIA/musica botao.png" class="card-img-top" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card h-80">
+              <a href="albuns.html">
+              <img src="/MEDIA/Albuns botao.png" class="card-img-top" alt="" />
+              </a>
+            </div>
+          </div>
+
+          <div class="col mb-4">
+            <div class="card h-80">
+              <a href="tops.html">
+              <img src="/MEDIA/tops botao.png" class="card-img-top" alt="" />
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="container mt-5 mb-5"> !-- margem top--
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h3 class="text-center mb-5">Todos os teus álbuns e artistas preferidos num só lugar</h3>     
+          !-- carrosel ocupa oito colunas--
+          <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="1000" >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/MEDIA/nevermind_albumcove.avif" class="d-block w-100" alt="slide1" />
+              </div>
+              <div class="carousel-item">
+                <img src="/MEDIA/MJ_thriller_cover.jpg" class="d-block w-100" alt="slide2" />
+              </div>
+              <div class="carousel-item">
+                <img src="/MEDIA/Topimpabuterfly_cover.jpg" class="d-block w-100" alt="slide3" />
+              </div>
+              <div class="carousel-item">
+                <img src="/MEDIA/randomaccessmemories_cover.png" class="d-block w-100" alt="slide2" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Amy-Winehouse-Back-to-Black-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Aladdin-Sane-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Beatles-Sgt-Pepper-Cover-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Blink-182-Enema-Of-The-State--820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Bruce-Springsteen-Born-In-The-USA-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Elvis-Presley-Album-Cover-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Green-Day-Dookie-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Katy-Perry-Teenage-Dream-768x764.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Led-Zeppelin-Houses-Of-The-Holy--820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/MJ_thriller_cover.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Nirvana-Nevermind-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/NWA-Straight-Outta-Compton-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Pink-Floyd-Dark-Side-Of-The-Moon-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Prince-Purple-Rain-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/randomaccessmemories_cover.png" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Roxy-Music-Album-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/The-Mothers-Of-Invention-Weasels-Ripped-My-Flesh-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/The-Smashing-Pumpkins-Mellon-Collie-and-the-Infinite-Sadness-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/The-Smiths-Meat-Is-Murder--768x778.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/The-Strokes-Is-This-It-820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/The-Velvet-Underground-Nico--820x820.jpg" height="500" width="500" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/MEDIA/albums_cover/Topimpabuterfly_cover.jpg" height="500" width="500" alt="" />
+          </div>
+        </div>
+      </div>
+
+    
+
+    <!-- secção do about us-->
+    <section class="py-3 py-md-5" id="about_us">
+      <div class="container">
+        <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+          <div class="col-12 col-lg-6 col-xl-5">
+            <img class="img-fluid rounded" loading="lazy" src="/MEDIA/Hand-drawn-ocean-waves-removebg-preview.png" alt="About 1" />
+          </div>
+          <div class="col-12 col-lg-6 col-xl-7">
+            <div class="row justify-content-xl-center">
+              <div class="col-12 col-xl-11">
+                <h2 class="mb-3">Sobre nós</h2>
+                <p style="font-size: 20px"> Na Wave, somos apaixonados por música. Criámos a nossa plataforma recentemente com o objetivo de proporcionar uma experiência única para todos os amantes de música em qualquer lugar e qualquer momento.
+                </p>
+                <p style="font-size: 20px" class="mb-5"> Somos uma equipa que acredita na importância da descoberta musical. Por isso, oferecemos recursos avançados de personalização individual e recomendações ajustadas, ajudando-o assim a descobrir novas músicas e artistas que se encaixam no seu gosto único.
+                </p>
+
+                <div class="row gy-4 gy-md-0 gx-xxl-5X">
+                  <div class="col-12 col-md-6">
+                    <div class="d-flex">
+                      <div class="me-4 text-primary">
+                        <!--import de icon-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#34A6CA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
+                          <circle cx="5.5" cy="17.5" r="2.5" />
+                          <circle cx="17.5" cy="15.5" r="2.5" />
+                          <path d="M8 17V5l12-2v12" />
+                        </svg>
+                      </div>
+                      <div>
+                        <h2 class="h4 mb-3">Plataforma totalmente grátis</h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-6">
+                    <div class="d-flex">
+                      <div class="me-4 text-primary">
+                        <!--import dos icon-->
+                        <svg fill="#34A6CA" height="32px" width="32px" version="1.1" id="Capa_1"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 370 370"xml:space="preserve" >
+                          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" ></g>
+                          <g id="SVGRepo_iconCarrier">
+                            <path d="M365,208.133h-16.441L324.741,76.609c-0.431-2.379-2.502-4.109-4.92-4.109h-7.219c-1.042,0-2.02,0.321-2.83,0.877L200,41.92 V9.764c0-2.761-2.238-5-5-5h-20c-2.762,0-5,2.239-5,5V41.92L60.226,73.378c-0.81-0.557-1.788-0.878-2.83-0.878h-7.217 c-2.418,0-4.489,1.73-4.92,4.109L21.441,208.133H5c-2.762,0-5,2.239-5,5v5c0,29.659,24.129,53.788,53.787,53.788 c29.659,0,53.788-24.129,53.788-53.788v-5c0-2.761-2.238-5-5-5H86.133L65.237,92.747L170,61.229v269.007h-40.681 c-2.762,0-5,2.239-5,5v25c0,2.761,2.238,5,5,5h111.361c2.762,0,5-2.239,5-5v-25c0-2.761-2.238-5-5-5H200V61.229l104.761,31.518 l-20.894,115.386h-16.442c-2.762,0-5,2.239-5,5v5c0,29.659,24.129,53.788,53.788,53.788c29.658,0,53.787-24.129,53.787-53.788v-5 C370,210.372,367.762,208.133,365,208.133z M304.3,207.53l11.912-65.78l11.912,65.78H304.3z M41.875,207.53l11.912-65.78 l11.912,65.78H41.875z" >
+                            </path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div>
+                        <h2 class="h4 mb-3">
+                          Remuneração justa para todos os artistas
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action para entrar em contacto-->
+    <section class="call-to-action text-white text-center" id="signup">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div class="col-xl-6">
+            <h2 class="mb-4">Envie-nos o seu email para entrar em contacto conosco</h2>
+
+            <form class="form-subscribe"id="contactFormFooter" data-sb-form-api-token="API_TOKEN" >
+              <!-- input do endereço de email-->
+              <div class="row">
+                <div class="col">
+                  <input class="form-control form-control-lg" id="emailAddressBelow"type="email" placeholder="Endereço de email" data-sb-validations="required,email" />
+                  <!--erros de input-->
+                  <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required" >É necessário um endereço de email</div>
+                  <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email" >
+                    Endereço de email inválido
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit" >Enviar</button>
+                </div>
+              </div>
+              <!-- Submit correto-->
+
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">
+                  <div class="fw-bolder">Entraremos em contacto em breve!</div>
+                </div>
+              </div>
+
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">
+                  Error sending message!
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--bottom navbar-->
+    <div class="navbar-custom">
+      <a href="#Sobrenos" class="active">Sobre nós</a>
+      <a href="#Contatos">Contactos</a>
+      <a class="redes" href="https://www.instagram.com/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+        <a class="redes" href="https://twitter.com/" target="_blank">
+          <ion-icon name="logo-twitter"></ion-icon>
+          <a class="redes" href="https://www.facebook.com/" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </a>
+      </a>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" ></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" ></script>
+  </body>
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  
+
+</html>
