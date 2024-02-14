@@ -82,25 +82,23 @@
 
     <h1>PÁGINA EM CONSTRUÇÃO</h1>
     
-    <main>
+     <main>
       <div class="table-container">
-        <table>
-          <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Country</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td data-label="ID">1</td>
-            <td data-label="Name">John Doe</td>
-            <td data-label="Email">john@example.com</td>
-            <td data-label="Country">USA</td>
-          </tr>
+        <table id="myTable">
+          <thead>
+            <tr>
+            <th>Música</th>
+            <th>Álbum</th>
+            <th>Artista</th>
+            <th>YouTube Link</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
         </table>
       </div>
+      <script>document.addEventListener('DOMContentLoaded', function () {
+        populateTable();
+      });</script>
      </main>
 
     
@@ -127,5 +125,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/scripts.js"></script>
   <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+  <script src="/JS/musictable.js"></script>
 
 </html>
